@@ -11,6 +11,10 @@ celem projektu jest przewidywanie czy dana osoba brała LSD na podstawie jej cec
 
 w projekcie zostały użyte dwa modele klasyfikacji: regresja logistyczna i random forest
 
+kolumnę LSD uproszczono, z 6 kategorii do 2, 0 = nie brał, 1 = brał
+
+dodatkowo usuwamy wiersze osób, które zaznaczyły że brały fikcyjny narkotyk semeron
+
 wyniki - 
 regresja logistyczna: accuracy: 0.74, f1-score: 0.72
 random forest: accuracy: 0.78 f1-score: 0.76
